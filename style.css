@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Oswald", sans-serif;
+}
+.background {
+  background-image: url(./images/mountain.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.container h1 {
+  font-size: 4rem;
+}
+.settings {
+  position: absolute;
+  right: 1.7rem;
+  bottom: 1.7rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.settings .fa-cog {
+  font-size: 2.5rem;
+  color: grey;
+}
+.setting-content {
+  display: flex;
+  gap: 1rem;
+}
+.setting-content input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+.setting-content button {
+  padding: 0.5rem 1rem;
+  background-color: rgb(19, 180, 19);
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: white;
+}
+.hide {
+  display: none;
+}
+.time-container {
+  line-height: 60px;
+  display: flex;
+  margin-top: 1rem;
+  gap: 2rem;
+  place-content: center;
+}
+.time-container h2 {
+  text-align: center;
+  font-size: 2.2rem;
+}
+.time-container div {
+  font-size: 4rem;
+  color: #fff;
+}
